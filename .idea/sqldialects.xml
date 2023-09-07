@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/MariaDB/maria_board1.sql" dialect="MariaDB" />
     <file url="file://$PROJECT_DIR$/Oracle/4주2차시.sql" dialect="OracleSqlPlus" />
     <file url="file://$PROJECT_DIR$/Oracle/4주3차시.sql" dialect="OracleSqlPlus" />
     <file url="file://$PROJECT_DIR$/Oracle/5주차.sql" dialect="Oracle" />
