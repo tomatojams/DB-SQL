@@ -1,0 +1,13 @@
+CREATE SEQUENCE TEST_SEQ
+INCREMENT BY 1
+START WITH 20
+MAXVALUE 25
+NOCACHE
+NOCYCLE;
+
+commit;
+
+
+SELECT test_seq.nextval  FROM dual;
+
+SELECT test_seq.currval  FROM dual;
