@@ -13,5 +13,6 @@
     <file url="file://$PROJECT_DIR$/Oracle - 데이타베이스구축/hr_popul.sql" dialect="OracleSqlPlus" />
     <file url="file://$PROJECT_DIR$/Oracle - 데이타베이스구축/hr계정 생성.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/SQL server - 정형데이타분석/2강SQL의 이해.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/SQL server - 정형데이타분석/3 SELECT 구문.sql" dialect="GenericSQL" />
   </component>
 </project>
