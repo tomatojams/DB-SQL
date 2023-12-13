@@ -1,3 +1,21 @@
 {
-    "sqltools.useNodeRuntime": true
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "oracleOptions": {
+                "autoCommit": false,
+                "lowerCase": false,
+                "thickMode": false,
+                "limitPrefetchRows": false
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1521,
+            "driver": "Oracle",
+            "name": "오라클 토마토",
+            "database": "XE",
+            "username": "tomato",
+            "password": "1234"
+        }
+    ]
 }

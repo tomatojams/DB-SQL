@@ -20,7 +20,7 @@
   BEGIN 
      DBMS_OUTPUT.PUT_LINE('---'); 
      FOR i IN team.FIRST .. team.LAST LOOP
-        DBMS_OUTPUT.PUT_LINE(i || '.' || team(i));ww
+        DBMS_OUTPUT.PUT_LINE(i || '.' || team(i));
      END LOOP;
      DBMS_OUTPUT.PUT_LINE('---'); 
    END;

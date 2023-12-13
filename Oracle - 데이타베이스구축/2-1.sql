@@ -1,1 +1,1 @@
-select * from dba_tablespaces;
+select * from EMPLOYEES;

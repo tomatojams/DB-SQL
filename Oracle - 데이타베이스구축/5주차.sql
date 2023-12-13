@@ -8,6 +8,8 @@ CREATE TABLE unique_test (
   CONSTRAINT "col3col4_UK" UNIQUE(col3, col4)
 );
 
+select * from unique_test;
+
 INSERT INTO unique_test (col1, col2, col3, col4)
 VALUES ('A1','B1','C1','D1');
 
@@ -26,6 +28,9 @@ CREATE TABLE pk_test (
   col1   VARCHAR2(10) Primary Key,
   col2   VARCHAR2(10)
 );
+
+
+select * from pk_test;
 
 CREATE TABLE null_test (
   col1   VARCHAR2(10) NOT NULL,
@@ -48,6 +53,7 @@ CREATE TABLE  emp_test (
    CONSTRAINT  check_gender  CHECK (gender  IN  ('³²ÀÚ', '¿©ÀÚ'))
 );
 
+SELECT * FROM emp_test;
 INSERT INTO emp_test (empid, empname, address, grade, gender, regdate)
 VALUES (101, 'È«¼öÃ¶', 'SEOUL', NULL,'³²ÀÚ', NULL);
 
@@ -74,6 +80,8 @@ CREATE TABLE  emp_test (
 );
 
 SELECT * FROM departments;
+
+select * from emp_test;
 
 INSERT INTO emp_test (empid, empname, address, grade, gender, regdate, department_id)
 VALUES (101, 'È«¼öÃ¶', 'SEOUL', NULL,'³²ÀÚ', NULL, 10 );
