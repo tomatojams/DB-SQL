@@ -1,8 +1,8 @@
-show databases;
-use myboard;
-
-SELECT * FROM myboard;
-SELECT * FROM chat;
+# show databases;
+# use myboard;
+#
+# SELECT * FROM myboard;
+# SELECT * FROM chat;
 
 create database company;
 use company;
